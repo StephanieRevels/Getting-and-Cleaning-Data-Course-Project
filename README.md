@@ -8,7 +8,7 @@ The raw data can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activi
 
 ## R Script
 
-The R script is called Project4.R. This script downloads the zip file from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. Upon downloading the zip file, the script extracts relevant files and stores them in a subdirectory called UCI HAR Dataset. Only the mean and standard deviation for the features data is kept. The script then merges the three components and relabels coded variables and variable headings. Finally, the script creates a clean data set.
+The R script is called run_analysis.R. This script downloads the zip file from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. Upon downloading the zip file, the script extracts relevant files and stores them in a subdirectory called UCI HAR Dataset. Only the mean and standard deviation for the features data is kept. The script then merges the three components and relabels coded variables and variable headings. Finally, the script creates a clean data set.
 
 ## Code Book
 
